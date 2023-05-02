@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="eng">
+
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Form Lesson</title>
+  <style>
+    label {
+      display: block;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="form">
+    <div class="email">
+      <label for="email">Email:</label>
+      <input type="email" name="email" required>
+    </div>
+    <br>
+    <div class="password">
+      <label for="password">Password:</label>
+      <input type="password" name="password" required>
+    </div>
+    <br>
+    <div class="name_lastname">
+      <label for="name">Name:<label>
+          <input type="text" name="name" required>
+          <label for="lastname">Lastname:</label>
+          <input type="text" name="lastname" required>
+    </div>
+    <br>
+    <div class="date_of_birth">
+      <label for="birth_date">Date of birth:</label>
+      <input type="date" name="birth_date" required>
+    </div>
+    <br>
+    <div class="tel_number">
+      <label for="telephone_number">Telephone number:</label>
+      <input type="tel" name="telephone_number" minlength="10" maxlength="10" required>
+    </div>
+    <br>
+    <div class="plan">
+      <label for="plan">Choose your plan:</label>
+      <select id="plan" name="plan">
+        <option value="free">Free Plan</option>
+        <option value="plan1">Plan 1 - 5€</option>
+        <option value="plan2">Plan 2 - 10€</option>
+        <option value="plan3">Plan 3 - 20€</option>
+      </select>
+    </div>
+    <br>
+    <div class="proplan">
+      <label for="proplan">
+        <input type="checkbox" id="proplan" name="proplan">
+        Pro Plan - 50€
+      </label>
+    </div>
+    <br>
+    <div class="credit_card_number">
+      <label for="cc_num">Credit card number:</label>
+      <input type="number" name="creditcard" minlength="16" maxlength="16" required>
+    </div>
+    <br>
+    <div class="cvv">
+      <label for="cvv">CVV:</label>
+      <input type="number" name="cvv" minlength="3" maxlength="3" required>
+    </div>
+    <br>
+    <div class="expiration_date">
+      <label for="exp_date">Expiration Date:</label>
+      <input type="date" name="exp_date" required>
+    </div>
+    <div class="billing_address">
+      <label for="billingaddress">Billing address</label>
+      <input type="text" name="billingaddress" required>
+    </div>
+  </div>
+</body>
+
+</html>
