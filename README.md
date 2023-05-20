@@ -1,1 +1,1 @@
-# HTML-Exercises
+# HTML Exercises
